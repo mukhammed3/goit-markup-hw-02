@@ -373,7 +373,38 @@ a {
 
   background: #2f303a;
 }
+.footer-port {
+  position: absolute;
+  width: 1600px;
+  height: 180px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
 .footer-logo-part1 {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2120px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.footer-logo-part2 {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 245px;
+  top: 2120px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: white;
+}
+.footer-logo-part3 {
   position: absolute;
   width: 145px;
   height: 31px;
@@ -384,7 +415,7 @@ a {
 
   color: #2196f3;
 }
-.footer-logo-part2 {
+.footer-logo-part4 {
   position: absolute;
   width: 145px;
   height: 31px;
@@ -401,7 +432,31 @@ a {
   width: 231px;
   height: 21px;
   left: 215px;
-  top: 75px;
+  top: 2160px;
+
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.adress-port {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 70px;
+
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.adress-foot {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1739px;
 
   line-height: 24px;
   letter-spacing: 0.03em;
