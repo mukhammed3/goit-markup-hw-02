@@ -7,7 +7,17 @@
 
   background: #ffffff;
 }
+a:hover {
+  color: #2196f3;
+}
 
+a:active {
+  color: #2196f3;
+}
+
+a {
+  color: black;
+}
 .logo-part1 {
   position: absolute;
   width: 145px;
@@ -26,27 +36,7 @@
 
   color: #2196f3;
 }
-.logo-part2 {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 274px;
-  top: 24px;
 
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: black;
-}
-a {
-  text-decoration: none;
-}
 body {
   list-style-type: none;
   font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
@@ -54,6 +44,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: black;
+  text-decoration: none;
 }
 
 .nav-studio {
@@ -176,7 +167,7 @@ a {
   color: #ffffff;
 }
 
-.description-1 {
+.description-title {
   position: absolute;
   width: 270px;
   height: 16px;
@@ -189,45 +180,7 @@ a {
   color: #212121;
 }
 
-.description-2 {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 515px;
-  top: 768px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-
-.description-3 {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 815px;
-  top: 765px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-.description-4 {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 1115px;
-  top: 767px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  white-space: nowrap;
-
-  color: #212121;
-}
-.description-1down {
+.description-text {
   position: absolute;
   width: 270px;
   height: 75px;
@@ -238,39 +191,7 @@ a {
 
   color: #757575;
 }
-.description-2down {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 800px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
 
-  color: #757575;
-}
-.description-3down {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 815px;
-  top: 800px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.description-4down {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 1115px;
-  top: 800px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
 .title-center {
   position: absolute;
   width: 376px;
@@ -283,27 +204,14 @@ a {
   white-space: nowrap;
   color: #212121;
 }
-.title-img-left {
+.title-img-index {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 1061px;
 }
-.title-img-center {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1061px;
-}
-.title-img-right {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1061px;
-}
+
 .ourteam-background {
   position: absolute;
   width: 1600px;
@@ -325,7 +233,7 @@ a {
   white-space: nowrap;
   color: #212121;
 }
-.ourteam-designer {
+.ourteam-worker {
   position: absolute;
   width: 270px;
   height: 368px;
@@ -334,33 +242,7 @@ a {
 
   background: #ffffff;
 }
-.ourteam-developer {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 160px;
 
-  background: #ffffff;
-}
-.ourteam-marketing {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 160px;
-
-  background: #ffffff;
-}
-.ourteam-ui {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 160px;
-
-  background: #ffffff;
-}
 .text-center {
   text-align: center;
 }
@@ -393,18 +275,8 @@ a {
 
   color: #2196f3;
 }
-.footer-logo-part2 {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 245px;
-  top: 2120px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
 
-  color: white;
-}
-.footer-logo-part3 {
+.footer-logo-port {
   position: absolute;
   width: 145px;
   height: 31px;
@@ -414,17 +286,6 @@ a {
   letter-spacing: 0.03em;
 
   color: #2196f3;
-}
-.footer-logo-part4 {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 245px;
-  top: 30px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-
-  color: white;
 }
 
 .adress {
@@ -516,7 +377,7 @@ a {
   border-radius: 4px;
   cursor: pointer;
 }
-.img1 {
+.promo-item {
   position: absolute;
   width: 370px;
   height: 404px;
@@ -542,94 +403,7 @@ a {
   font-size: 16px;
   color: #757575;
 }
-.img2 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 262px;
 
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.img3 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 262px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.img4 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 696px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.img5 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 696px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.img6 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 696px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.img7 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.img8 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.img9 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
 .footer-port {
   position: absolute;
   width: 1600px;
@@ -638,21 +412,4 @@ a {
   top: 1628px;
 
   background: #2f303a;
-}
-hr {
-  position: absolute;
-  width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-
-  border: 1px solid #ececec;
-}
-
-main {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
 }
