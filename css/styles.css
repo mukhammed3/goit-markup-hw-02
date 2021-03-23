@@ -7,17 +7,7 @@
 
   background: #ffffff;
 }
-a:hover {
-  color: #2196f3;
-}
 
-a:active {
-  color: #2196f3;
-}
-
-a {
-  color: black;
-}
 .logo-part1 {
   position: absolute;
   width: 145px;
@@ -37,9 +27,21 @@ a {
   color: #2196f3;
 }
 
+header :active {
+  color: #2196f3;
+}
+
+header :hover {
+  color: #2196f3;
+}
+
+a {
+  color: black;
+}
+
 body {
   list-style-type: none;
-  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif; /* шрифты и без засечек */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -47,37 +49,13 @@ body {
   text-decoration: none;
 }
 
-.nav-studio {
+.nav-list {
   position: absolute;
-  width: 49px;
   height: 16px;
-  left: 453px;
   top: 32px;
 
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.nav-portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.nav-contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
 }
 
 li {
@@ -127,12 +105,10 @@ a {
   left: 430px;
   top: 170px;
   line-height: 60px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -145,7 +121,7 @@ a {
   color: #ffffff;
 }
 
-.main-button {
+.index-button {
   position: absolute;
   width: 200px;
   height: 50px;
@@ -156,15 +132,6 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-}
-.button-text {
-  height: 30px;
-  width: 136px;
-  left: 670px;
-  top: 440px;
-  border-radius: nullpx;
-  line-height: 30px;
-  color: #ffffff;
 }
 
 .description-title {
@@ -325,58 +292,19 @@ a {
   color: #ffffff;
 }
 
-.button-port1 {
+.main-button {
   position: absolute;
-  width: 73px;
   height: 38px;
-  left: 495px;
   top: 174px;
   border-radius: 4px;
-  background: #2196f3;
   cursor: pointer;
-}
-.button-port2 {
-  position: absolute;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
 }
-.button-port3 {
-  position: absolute;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
+.button-hover :hover {
+  background-color: #2196f3;
+  color: white;
 }
-.button-port4 {
-  position: absolute;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
 
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.button-port5 {
-  position: absolute;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-}
 .promo-item {
   position: absolute;
   width: 370px;
@@ -388,16 +316,14 @@ a {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.img11 {
+.promo-description {
   text-indent: 10%;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
 }
-.img111 {
+.promo-text {
   text-indent: 10%;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
