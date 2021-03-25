@@ -7,78 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeWork1</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-   
+
 </head>
 
 <body>
     <!-- шапка сайта -->
     <header>
-        <div class="navigation">
-            <nav>
-                <a href="./index.html" class="logo-part1">Web<span style="color: black;">Studio</span></a>
 
-                <ul>
+        <nav>
+            <a href="./index.html" class="logo-part1"><span class="logo-part2">Web</span>Studio</a>
 
-                    <li><a href="#" class="nav-list" style="width: 49px; left: 453px;">Студия</a></li>
+            <ul class="navigation">
 
-                    <li><a href="./portfolio.html" class="nav-list" style="width: 77px; left: 552px; ">Портфолио</a></li>
+                <li><a href="#" class="nav-list">Студия</a></li>
 
-                    <li><a href="#" class="nav-list" style="width: 68px; left: 679px;">Контакты</a></li>
-                </ul>
-            </nav>
-        </div>
-        <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="phone">+380 96 111 1111</a>
+
+                <li><a href="portfolio.html" class="nav-list">Портфолио</a></li>
+
+                <li><a href="#" class="nav-list">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <a href="mailto:info@devstudio.com" class="nav-adress">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="nav-adress">+380 96 111 1111</a>
+        <hr>
     </header>
-
     <main>
-        <div class="main-background">
+        <div class="main-text">
             <h1 class="main-text">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="index-button" style="color: aliceblue;">Заказать услугу</button>
+            <button type="button" class="index-button">Заказать услугу</button>
         </div>
         <section>
-            <ul>
+            <ul class="main-list">
                 <li>
-                <h3 class="description-title">Внимание к деталям</h3>
-            <p class="description-text">Идейные соображения, а также начало повседневной работы по формированию
-                позиции.</p>
+                    <h3 class="description-title">Внимание к деталям</h3>
+                    <p class="description-text">Идейные соображения, а также начало повседневной работы по формированию
+                        позиции.</p>
                 </li>
 
                 <li>
-            <h3 class="description-title" style="left: 515px;">Пунктуальность</h3>
-            <p class="description-text" style="left: 515px;">Задача организации, в особенности же рамки и место обучения кадров влечет за
-                собой.</p>
+                    <h3 class="description-title">Пунктуальность</h3>
+                    <p class="description-text">Задача организации, в особенности же рамки и место обучения кадров
+                        влечет за
+                        собой.</p>
                 </li>
                 <li>
-                    
-            <h3 class="description-title" style="left: 815px;">Планирование</h3>
-            <p class="description-text" style="left: 815px;">Равным образом консультация с широким активом в значительной степени
-                обуславливает.</p>
+
+                    <h3 class="description-title">Планирование</h3>
+                    <p class="description-text">Равным образом консультация с широким активом в значительной степени
+                        обуславливает.</p>
                 </li>
-               
+
                 <li>
-            <h3 class="description-title" style="left: 1115px;">Современные технологии</h3>
-            <p class="description-text" style="left: 1115px;">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
+                    <h3 class="description-title">Современные технологии</h3>
+                    <p class="description-text">Значимость этих проблем настолько очевидна, что реализация плановых
+                        заданий.
+                    </p>
                 </li>
             </ul>
         </section>
 
         <section>
             <h2 class="title-center">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="main-list">
 
                 <li class="title-img-index"><img src="./images/imagine%201.jpg" alt="photo 1" width="370" height="294">
                 </li>
 
-                <li class="title-img-index" style="left: 615px;"><img src="./images/imagine%202.jpg" alt="photo 2" width="370" height="294">
+                <li class="title-img-index" style="left: 615px;"><img src="./images/imagine%202.jpg" alt="photo 2"
+                        width="370" height="294">
                 </li>
 
-                <li class="title-img-index" style="left: 1051px;"><img src="./images/imagine%203.jpg" alt="photo 3" width="370" height="294">
+                <li class="title-img-index" style="left: 1051px;"><img src="./images/imagine%203.jpg" alt="photo 3"
+                        width="370" height="294">
                 </li>
             </ul>
         </section>
@@ -89,54 +95,54 @@
 
                 <ul class="text-center">
 
-                    <li class="ourteam-worker"><img src="./images/our%20guys%201.jpg" alt="product designer"
-                            width="270" height="260">
+                    <li class="ourteam-worker"><img src="./images/our%20guys%201.jpg" alt="product designer" width="270"
+                            height="260">
 
                         <p><strong>Игорь Демьяненко</strong></p>
-                        <span lang="en">Profuct Designer</span>
+                        <span lang="en" class="description-text">Profuct Designer</span>
 
                     </li>
 
-                    <li class="ourteam-worker" style="left: 515px;"><img src="./images/our%20guys%202.jpg" alt="Frontend Developer"
+                    <li class="ourteam-worker"><img src="./images/our%20guys%202.jpg" alt="Frontend Developer"
                             width="270" height="260">
                         <p><strong>Ольга Репина</strong></p>
-                        <span lang="en">Frontend Developer</span>
+                        <span lang="en" class="description-text">Frontend Developer</span>
                     </li>
 
-                    <li class="ourteam-worker" style="left: 815px;"><img src="./images/our%20guys%203.jpg" alt="Marketing" width="270"
+                    <li class="ourteam-worker"><img src="./images/our%20guys%203.jpg" alt="Marketing" width="270"
                             height="260">
                         <p><strong>Николай Тарасов</strong></p>
-                        <span lang="en">Marketing</span>
+                        <span lang="en" class="description-text">Marketing</span>
                     </li>
 
-                    <li class="ourteam-worker" style="left: 1115px;"><img src="./images/our%20guys%204.jpg" alt="Marketing" width="270"
+                    <li class="ourteam-worker"><img src="./images/our%20guys%204.jpg" alt="Marketing" width="270"
                             height="260">
                         <p><strong>Михаил Ермаков</strong></p>
-                        <span lang="en">UI Designer</span>
+                        <span lang="en" class="description-text">UI Designer</span>
                     </li>
                 </ul>
             </div>
         </section>
 
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer"></div>
-            <a href="./index.html" class="footer-logo-part1">Web<span style="color: white;">Studio</span></a>
-           
-            <address>
-                <div class="adress">
-                    <a href="г.Киев,пр-тЛесиУкраинки,26" style="color: aliceblue;">г. Киев,пр-т Леси Украинки,26</a>
+        <a href="./index.html" class="logo-part1"><span class="logo-part2">Web</span>Studio</a>
 
-                    
-                        <a href="mailto:info@example.com" style="color: rgba(255, 255, 255, 0.6);;">info@example.com</a>
-                    <br>
-                        <a href="tel:+380991111111" style="color: rgba(255, 255, 255, 0.6);;">+380 991 111 111</a>
-                   
-                </div>
-            </address>
-        </footer>
+        <address>
+            <div class="adress">
+                <a href="г.Киев,пр-тЛесиУкраинки,26">г. Киев,пр-т Леси Украинки,26</a>
 
-    
+                <br>
+                <a href="mailto:info@example.com" class="nav-adress">info@example.com</a>
+                <br>
+                <a href="tel:+380991111111" class="nav-adress">+380 991 111 111</a>
+
+            </div>
+        </address>
+    </footer>
+
+
 </body>
 
 </html>
